@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.AdminFeeActivity">
+    <TextView
+        android:id="@+id/tv_fee_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fee Activity"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="24dp"/>
+    <EditText
+        android:id="@+id/feeid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tv_fee_activity"
+        android:padding="20dp"
+        android:hint="Fee ID equivalent to Student Reg No..."
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:background="@drawable/input_design" />
+    <EditText
+        android:id="@+id/total_fee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/feeid"
+        android:padding="20dp"
+        android:hint="Total Fee..."
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:background="@drawable/input_design" />
+
+    <EditText
+        android:id="@+id/fee_paid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total_fee"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="Fee paid..."
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:background="@drawable/input_design" />
+
+    <EditText
+        android:id="@+id/fee-bal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fee_paid"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="6dp"
+        android:padding="20dp"
+        android:hint="Fee Balance..."
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:background="@drawable/input_design" />
+
+    <Button
+        android:id="@+id/fee_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fee-bal"
+        android:layout_marginEnd="45dp"
+        android:layout_marginStart="45dp"
+        android:text="Update Fee"
+        android:padding="17dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons"/>
+
+
+</RelativeLayout>

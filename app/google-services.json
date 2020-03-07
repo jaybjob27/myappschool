@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "972601266657",
+    "firebase_url": "https://schoolportalms.firebaseio.com",
+    "project_id": "schoolportalms",
+    "storage_bucket": "schoolportalms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972601266657:android:7598adfe91e1567e1782a0",
+        "android_client_info": {
+          "package_name": "com.example.jobndirangu.schoolportalms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972601266657-f1pmnd4u51bki5bq763rns042a0jtj3c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobndirangu.schoolportalms",
+            "certificate_hash": "01d7aebba145375c9ad1972bead041df6667c6a0"
+          }
+        },
+        {
+          "client_id": "972601266657-ogerv35ut2d4jltjnbumfje6s8negr6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtNiK6UlR4B5Ok1e1O-E1YjhzU6GdHcV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972601266657-ogerv35ut2d4jltjnbumfje6s8negr6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
